@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>SalePrevia"Almacen de bebidas"</title>
+<link rel="stylesheet" href="style.css">
+<link href="https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,600,700&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css"> 
+<link rel="shortcut icon" href="data/LOGO REDONDO PNG - copia.png" type="image/x-icon">
+</head>
+<body>
+    <section class="sub-header">
+        <nav>
+            <!-- <a href="index.html"><img src="data/logo.png"></a> -->
+            <div class="nav-links" id="navLinks">  
+                <i class="fa fa-close" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">INICIO</a></li>
+                    <li><a href="nosotros.html">NOSOTROS</a></li>
+                    <li><a href="bebidas.html">BEBIDAS</a></li>
+                    <!-- <li><a href="blog.html">BLOG</a></li> -->
+                    <li><a href="contacto.html">CONTACTO</a></li>
+                </ul>
+            </div>
+            <i class="fa fa-bars" onclick="showMenu()"></i>
+        </nav>
+            <h1>BEBIDAS</h1>
+    </section>
+    
+    
+
+<!-------- footer ---------->
+
+<section class="footer">
+    <h4>Sobre Nosotros</h4>
+    <p> Este Almacen de Bebidas comenzo a partir de 2020 por Santiago Lopez Pellicioli. Desde el principio le dimos vida a nuestro proyecto desde el Gararje de una casa, lo que despues paso a ser un local comercial<br>con una amplia cartera de productos nacionales e internacionales que hoy en dia ya nos diferencian ante nuestras competencias y nos colocan en el Top 1 como Alamacenes de Bebidas en nuestra ciudad.</p>
+    <div class="icons">
+        <a href=""><i class="fa fa-facebook"></i></a>
+        <a href=""><i class="fa fa-twitter"></i></a>
+        <a href=""><i class="fa fa-instagram"></i></a>
+        <a href=""><i class="fa fa-linkedin"></i></a>
+        
+    </div>
+    <!-- <i class="fa fa-heart-o"></i> -->
+    <a href="" class="footer-link"><p>© Todos los derechos reservados por copyrigth ©<br> Sale Previa "Almacen de bebidas" </p></a>
+</section>    
+<!----JavaScript menu---->
+<script>
+    var navLinks = document.getElementById("navLinks");
+
+    function showMenu() {
+        navLinks.style.right = "0";
+    }
+
+    function hideMenu() {
+        navLinks.style.right = "-200px";
+    }
+</script>
+</body>
+</html>    
